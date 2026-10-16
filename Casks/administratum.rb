@@ -3,9 +3,9 @@
 cask "administratum" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.0"
-  sha256 arm:   "1427f9a5e27406d3a5f7ece568a70dd422d6e732e48b84ff77244a3ae98e6a4c",
-         intel: "7a08fd8ae843894c66bcae77429b46851afc9f19983bc84714f2c839d68eeedd"
+  version "0.5.1"
+  sha256 arm:   "41950b6bfe00c7b4fc0cfc26bb8152563e8c95153827fbb109ca7bfec05a8fab",
+         intel: "f23dc83b59ae829aed6664db027974c37804e7e4b9dc07c2623f4e168e793c10"
 
   url "https://github.com/Arylmera/Administratum/releases/download/v#{version}/Administratum_#{version}_#{arch}.dmg"
   name "Administratum"
